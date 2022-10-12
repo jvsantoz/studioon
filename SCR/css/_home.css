@@ -1,0 +1,145 @@
+#slider {
+    background-color: #000;
+    color: #fff;
+
+}
+
+.slide {
+    position: relative;
+    height: 90vh;
+}
+
+.slide__background-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.slide__copy {
+    position: absolute;
+    top: 2rem;
+    left: 50vw;
+}
+
+.slide__copy h6 {
+    font-size: 0.875rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.1875rem;
+}
+
+.slide__copy h2 {
+    font-size: 6.25rem;
+    text-transform: uppercase;
+    line-height: 6.85rem;
+}
+
+.slide__copy h2 span {
+    display: block;
+}
+
+#counter {
+    background-color: var(--colorprimary);
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.counter__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    place-items: center;
+
+    padding: 4.375rem 1rem;
+}
+
+.counter__container h3 {
+    font-size: 2.1875rem;
+}
+
+.counter__container h3 small {
+    display: block;
+    font-size: 1.25rem;
+}
+
+.institutional {
+    max-width: 120ch;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 3.125rem;
+    align-items: center;
+    padding: 4.375rem 1rem;
+    margin: 0 14rem;
+}
+
+.institutional__image {
+    max-width: 550px;
+}
+
+.institutional__copy {
+    padding: 0 1.875rem;
+}
+
+.institutional__copy h6 {
+    font-size: 0.875rem;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.institutional__copy h4 {
+    font-size: 1.5625rem;
+    margin-top: 1rem;
+}
+
+.institutional p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.0625;
+    line-height: 1.6875;
+    margin-bottom: 0;
+    margin-bottom: 2.5rem;
+}
+
+.quote {
+    background-image: url(../imagens/parallax.jpg);
+    min-height: 80vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.quote__container {
+    display: grid;
+    align-items: center;
+    justify-items: end;
+    min-height: 80vh;
+}
+
+.quote_copy {
+    background-color: #fff;
+    padding: 5.625rem 4.375rem;
+}
+
+.quote_copy h6 {
+    font-size: 0.9375rem;
+    font-weight: 400;
+    letter-spacing: 0.1875rem;
+    line-height: 1.4375rem;
+    max-width: 53ch;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.quote_copy h2 {
+    font-size: 5rem;
+    letter-spacing: -0.1875rem;
+    line-height: 5rem;
+    text-transform: uppercase;
+    margin: 1.5625rem 0;
+}
+
+.quote_copy h2 span {
+    display: block;
+}

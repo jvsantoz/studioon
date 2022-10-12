@@ -11,9 +11,11 @@
         <nav class="navbar">
             <div class="container navbar__container">
                 <h1 class="logo-studion">
-                Studi<span class="copy--primary">on</span>
-                <span class="logo-studion__subtitle">Eventos</span>
-                </h1>
+                    <a href="index.html">
+                    Studi<span class="copy--primary">on</span>
+                    <span class="logo-studion__subtitle">Eventos</span>
+                    </a>
+                    </h1>
                 <ul class="navbar__links">
                     <li>
                     <a href="empresa.html">
@@ -36,7 +38,7 @@
                     </a>
                     </li>
                     <li>
-                    <a href="contatos.html">
+                    <a class="active" href="contatos.html">
                         Contatos
                     </a>
                     </li>
@@ -45,66 +47,63 @@
         </nav>
 
         <header>
-            <div id="slider">
-                <div class="slide">
-                    <img 
-                    class="slide__background-image" 
-                    src="./imagens/banner.jpg" 
-                    alt="Studion Banner"
-                    />
-                <div class="slide__copy"> 
-                    <h6><span class="copy--primary">Próximo evento</span> - Dia 25 de Setembro às 19h</h6>
-                    <h2><span class="copy--primary">Creative</span>Minds</h2>
-                    <button class="btn btn--slide">Saiba Mais</button>
-                </div>    
-                
-            </div>
+            <div class="hero">
+                <img src="./imagens/contact.jpg" alt="imagem computador" class="hero__background">
+                <div class="cotainer hero__container">
+                  <div class="hero__copy">
+                    <h2>.contato</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod aliquid dolore eligendi similique tempora quasi dignissimos ad nulla voluptate. Consequuntur architecto veritatis fuga corrupti! In ex atque labore ipsam dolore!</p>
+                  </div>  
+                </div>
             </div>
         </header>
 
         <main>
-            <section id="counter">
-                <ul class="container counter__container">
-                    <li>
-                        <h3>+ de 500 
-                        <small>eventos realizados</small>
-                        </h3>
-                    </li>
-                    <li>
-                        <h3>+ de 1.000.000 
-                        <small>ingressos vendidos</small> 
-                        </h3>
-                    </li>
-                    <li>
-                        <h3>+ de 300
-                        <small>atendidas</small>
-                        </h3>
-                    </li>
-                </ul>
+            <section class="contact">
+                <section class="contact__info">
+                    <div class="contact__info__container">
+                        <h3>Liga pra gente</h3>
+                        <span>
+                            <i class="fa-solid fa-phone "></i>
+                            +55 48 3223 - 5769
+                        </span>
+                        <span>
+                            <i class="fab fa-whatsapp"></i>
+                            +55 48 99943 - 7777
+                        </span>
+                        <h3>Venha conhecer nossa casa</h3>
+                        <span>
+                            <i class="fa-solid fa-location-dot"></i>
+                            Rua Miguel Daux, 129 - Coqueiros Florianópolis / SC
+                        </span>
+                     </div>
+                </section>
+                
+                <section class="contact__form">
+                    <form class="contact__form__container" action="">
+                        <h3>Deixe sua mensagem</h3>
+                        <label for="name">Seu Nome</label>
+                        <input id="name" type="text" />
+                        <label for="email">Seu email</label>
+                        <input id="email" type="email" />
+                        <label for="message">Sua mensagem</label>
+                        <input id="message" type="text" />
+                        <button class="btn btn--contact" type="submit">Enviar</button>
+                    </form>
+                </section>
+            </section>
+                
+            <section class="maps">
+                <iframe 
+                    width="100%" 
+                    src="https://maps.google.com/maps?q=Rua%20Miguel%20Daux,%20129%20-%20Coqueiros%20Florian%C3%B3polis%20/%20SC&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                    frameborder="0" 
+                    scrolling="no" 
+                    marginheight="0" 
+                    marginwidth="0">
+                </iframe>
             </section>
 
-            <section class="institutional">
-                <img class="institutional__image" src="./imagens/institutional.jpg" alt="Studion institutional"/>
-                <div class="institutional__copy">
-                    <h6>Fazemos seu evento acontecer</h6>
-                    <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                        Dolore fugit, quo nostrum repudiandae corrupti fugiat assumenda odio natus 
-                        doloribus, aliquid maxime, recusandae minima ducimus ipsum nisi earum 
-                        aspernatur totam! Fugiat?</p>
-                    <button class="btn btn--institutional">Saiba mais</button>    
-                </div>
-            </section>
-
-            <section class="quote">
-                <div class="container quote__container">
-                    <div class="quote_copy">
-                        <h6>Você informa a temática e nós planejamos um evento com técnologia e</h6>
-                        <h2><span class="copy--primary">Muito+ </span>Diversão</h2>
-                        <button class="btn btn--quote">Fazer cotação</button>
-                    </div>
-                </div>
-            </section>
         </main>
 
         <footer class="footer">
