@@ -1,0 +1,82 @@
+.empresa_container {
+    max-height: 680px;
+    background-color: #fff;
+}
+
+.empresa {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 4.375rem
+}
+
+.empresa_info {
+    max-width: 400px;
+    padding: 1rem;
+}
+
+.empresa_titulo{
+    font-family: "Montserrat";
+    font-size: 1.5625rem;
+    font-weight: 700;
+    color: var(--color-copy);
+}
+
+.empresa_titulo p {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.0625rem;
+    font-weight: 400;
+    line-height: 2rem;
+    color: var(--color-copy)
+}
+
+.empresa_image {
+    max-height: 650px;
+    padding-bottom: 2.5rem;
+}
+
+.background_logo_icons {
+    max-height: 575px;
+    background-color: var(--colorprimary);
+}
+
+.background_icons {
+    max-height: 575px;
+    text-align: center;
+}
+
+.background_icons h3 {
+    margin: 0;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    text-align: center;
+
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 1.5625rem;
+    color: var(--color-copy);
+}
+
+.logos_icons {
+    max-height: 340px;
+    padding: 0rem 0rem 3rem;
+    text-align: center;
+}
+
+.video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4.5rem 2.5rem;
+    position: relative;
+}
+
+.video_image {
+    width: 65rem;
+    height: 42rem;
+}
+
+.video i{
+    color: #fff;
+    position: absolute;
+    font-size: 5rem;
+}

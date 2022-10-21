@@ -50,6 +50,7 @@
 .navbar__links li{
     font-size:  1.2rem;
     text-transform: uppercase;
+    margin: 1rem;
 }
 
 /* Desktop */
