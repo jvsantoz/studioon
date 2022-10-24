@@ -6,12 +6,14 @@
 .empresa {
     display: grid;
     grid-template-columns: auto auto;
-    padding: 4.375rem
+    padding: 4.375rem;
+    justify-items: center;
 }
 
 .empresa_info {
     max-width: 400px;
     padding: 1rem;
+    padding-left: 3rem;
 }
 
 .empresa_titulo{
