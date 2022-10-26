@@ -1,84 +1,219 @@
+.main {
+    overflow-x: unset;    
+}
+
+/* Mobile */
 .empresa_container {
-    max-height: 680px;
+    max-height: 350px;
     background-color: #fff;
 }
 
-.empresa {
-    display: grid;
-    grid-template-columns: auto auto;
-    padding: 4.375rem;
-    justify-items: center;
+/* Desktop */
+@media screen and (min-width: 1280px){
+    .empresa_container {
+        max-height: 680px;
+        background-color: #fff;
+    }
 }
 
+/*Mobile */
+.empresa {
+    display: unset;
+}
+
+/* Desktop */
+@media screen and (min-width: 1280px) {
+    .empresa {
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 4.375rem;
+        justify-items: center;
+    }
+}
+
+/* Mobile */
 .empresa_info {
     max-width: 400px;
     padding: 1rem;
     padding-left: 3rem;
 }
 
-.empresa_titulo{
+/* Desktop */
+@media screen and (min-width: 1280px){
+    .empresa_info {
+        max-width: 400px;
+        padding: 0;
+    }
+}
+
+/* Mobile */
+.empresa_info h3 {
     font-family: "Montserrat";
-    font-size: 1.5625rem;
-    font-weight: 700;
+    font-size: 0.9375rem;
+    font-weight: 800;
     color: var(--color-copy);
 }
 
-.empresa_titulo p {
+/* Desktop */
+@media screen and (min-width: 1280px) {
+    .empresa_info h3 {
+        font-family: "Montserrat";
+        font-size: 1.5625rem;
+        font-weight: 700;
+        color: var(--color-copy);
+    }
+}
+
+/* Mobile */
+.empresa_info p {
     font-family: "Roboto", sans-serif;
-    font-size: 1.0625rem;
+    font-size: 0.75rem;
     font-weight: 400;
-    line-height: 2rem;
+    line-height: 1rem;
     color: var(--color-copy)
 }
 
+/* Desktop */
+@media screen and (min-width: 1280px){
+    .empresa_info p {
+        font-family: "Roboto", sans-serif;
+        font-size: 1.0625rem;
+        font-weight: 400;
+        line-height: 2rem;
+        color: var(--color-copy)
+     }
+}
+
+/* Mobile */
 .empresa_image {
+    visibility: hidden;
     max-height: 650px;
     padding-bottom: 2.5rem;
 }
 
+/* Desktop */
+@media screen and (min-width: 1280px){
+    .empresa_image {
+        visibility: unset;
+        max-height: 650px;
+        padding-bottom: 2.5rem;
+    }
+}
+
+/* Mobile */
 .background_logo_icons {
+    margin-top: 0.5rem;
     max-height: 575px;
     background-color: var(--colorprimary);
 }
 
+/* Desktop */
+@media screen and (min-width: 1280px){
+    .background_logo_icons {
+        margin-top: 0rem;
+        max-height: 575px;
+        background-color: var(--colorprimary);
+    }
+}
+
+/* Mobile */
 .background_icons {
-    max-height: 575px;
+    max-height: 180px;
     text-align: center;
 }
 
+/* Desktop */
+@media screen and (min-width: 1280px){
+    .background_icons {
+        max-height: 575px;
+        text-align: center;
+    }
+}
+
+/* Mobile */
 .background_icons h3 {
+    visibility: hidden;
     margin: 0;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    text-align: center;
-
-    font-family: "Montserrat";
-    font-weight: 700;
-    font-size: 1.5625rem;
-    color: var(--color-copy);
 }
 
+/* Desktop */
+@media screen and (min-width: 1280px){
+    .background_icons h3 {
+        margin: 0;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        text-align: center;
+    
+        font-family: "Montserrat";
+        font-weight: 700;
+        font-size: 1.5625rem;
+        color: var(--color-copy);
+
+        visibility: unset;
+    }
+}
+
+/* Mobile */
 .logos_icons {
-    max-height: 340px;
+    max-height: 180px;
     padding: 0rem 0rem 3rem;
     text-align: center;
 }
 
+/* Desktop */
+@media screen and (min-width: 1280px){
+    .logos_icons {
+        max-height: 340px;
+        padding: 0rem 0rem 3rem;
+        text-align: center;
+    }
+}
+
+/* Mobile */
 .video{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 4.5rem 2.5rem;
+    padding: 1rem 0rem;
     position: relative;
 }
 
-.video_image {
-    width: 65rem;
-    height: 42rem;
+/* Desktop */
+@media screen and (min-width: 1280px){
+    .video {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 4.5rem 2.5rem;
+        position: relative;
+    }
 }
 
-.video i{
+/* Mobile */
+.video_image {
+    width: 18.4375rem;
+    height: 10.6875rem;
+}
+
+/* Desktop */
+@media screen and (min-width: 1280px){
+    .video_image {
+        width: 65rem;
+        height: 42rem;
+    }
+}
+
+.video i {
     color: #fff;
     position: absolute;
-    font-size: 5rem;
+    font-size: 1.5rem;
+}
+
+/* Desktop */
+@media screen and (min-width: 1280px){
+    .video i{
+        color: #fff;
+        position: absolute;
+        font-size: 5rem;
+    }
 }
